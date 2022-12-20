@@ -20,7 +20,7 @@ class Root(Tk):
         self.resizable(0,0)
         self.minsize(640, 400)
         #self.background("")
-        self.algorithms = ["OTP", "3DES", "ASE"]
+        self.algorithms = ["OTP", "3DES", "AES"]
         self.cipher = ""
         self.decipher = ""
 
@@ -144,7 +144,7 @@ class Root(Tk):
             except Exception as e:
                 self.Ciphered_text.insert(END,e)
             pass
-        elif Algorithm == "ASE":
+        elif Algorithm == "AES":
             try:
                 ciphered = encrypt_aes(plain_text,key)
             except Exception as e:
@@ -176,7 +176,7 @@ class Root(Tk):
             except Exception as e:
                 self.Deciphered_msg.insert(END,e)
                 pass
-        elif Algorithm == "ASE":
+        elif Algorithm == "AES":
                 try:
                     plain_text = decrypt_aes(ciphered,key)
                 except Exception as e:
