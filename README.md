@@ -10,7 +10,8 @@ The project uses python tkinter module to create a GUI that shows two main funct
 ```python
 from tkinter import *
 ```
-![Screenshot](https://github.com/Abeni1/Encryption-Decryption/blob/main/image/Screenshot.jpg)<br>
+![Screenshot](./image/Screenshot.jpg "Screenshot of the program")
+<br>
 
 __Encryption__ :<br>
 Which Generates an encrypted text from the user defined plain text using the key and selected algorithm
