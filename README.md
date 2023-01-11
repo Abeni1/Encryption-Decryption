@@ -23,5 +23,6 @@ Generates the plain text or original message form the encrypted text using the K
 ```python
 def deycrypt(self): ...
 ```
-
-
+## **__How To run__:**<br>
+Either clone the code and run in terminal using an IDE <br>
+Just download the *__main.exe__* file and run.
